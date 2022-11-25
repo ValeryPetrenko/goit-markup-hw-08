@@ -1,0 +1,43 @@
+.solutions-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.solutions-list li {
+    width: 270px;
+}
+
+.solutions-list h3 {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-title-color);
+    margin-bottom: 10px;
+}
+
+.solutions-list p {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.solutions-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.solutions-item {
+    width: 270px;
+}
+
+.solutions-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    height: 120px;
+}
