@@ -1,11 +1,21 @@
 .devices {
     padding-top: 0px;
+    @media (max-width: 1199px){
+        display: none;
+    }
 }
 
 .devices__list {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 
+.devices__item{
+ @media screen and (min-width: 1200px) {
+        width: calc((100% - 60px) / 3);
+    }
 }
 
 .devices__top-wrap {

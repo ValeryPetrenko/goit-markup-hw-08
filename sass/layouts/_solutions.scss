@@ -1,11 +1,13 @@
 .solutions-list {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    // justify-content: space-between;
 }
 
-.solutions-list li {
-    width: 270px;
-}
+// .solutions-list li {
+//     width: 270px;
+// }
 
 .solutions-list h3 {
     font-size: 14px;
@@ -22,14 +24,21 @@
     color: var(--text-color);
 }
 
-.solutions-list {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
+// .solutions-list {
+//     display: flex;
+//     justify-content: center;
+//     gap: 30px;
+// }
 
 .solutions-item {
-    width: 270px;
+    // width: 270px;
+    width: 100%;
+    @media screen and (min-width: 768px) {
+         width: calc((100% - 30px) / 2);
+        }
+    @media screen and (min-width: 1200px) {
+         width: calc((100% - 90px) / 4);
+        }
 }
 
 .solutions-area {
