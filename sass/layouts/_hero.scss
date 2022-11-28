@@ -5,7 +5,10 @@
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero-bg.jpg);
+    background-image: linear-gradient(to right,
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)), 
+                     url(../img/hero-bg-mob.jpg);
     background-color: #2F303A;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,16 +16,47 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: linear-gradient(to right,
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url(../img/hero-bg-mob-2x.jpg);
+            }
 
     @media screen and (min-width: 768px) {
          padding: 118px 204px;
          display: flex;
          justify-content: center;
          align-items: center;
+         background-image: linear-gradient(to right,
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url(../img/hero-bg-tab.jpg);
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: linear-gradient(to right,
+                        rgba(47, 48, 58, 0.4),
+                        rgba(47, 48, 58, 0.4)),
+                    url(../img/hero-bg-tab-2x.jpg);
+            }
         }
     @media screen and (min-width: 1200px) {
          padding: 200px 0;
-
+         background-image: linear-gradient(to right,
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url(../img/hero-bg.jpg);
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                background-image: linear-gradient(to right,
+                        rgba(47, 48, 58, 0.4),
+                        rgba(47, 48, 58, 0.4)),
+                    url(../img/hero-bg-2x.jpg);
+            }
     }
 }
 
