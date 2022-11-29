@@ -26,7 +26,8 @@
 }
 
 .header-list {
-    display: flex;
+    // display: flex;
+    display: none;
     align-items: center;
     gap: 50px;
 }
@@ -41,7 +42,8 @@
 }
 
 .contacts {
-    display: flex;
+    // display: flex;
+    display: none;
     align-items: center;
     gap: 50px;
 }
@@ -114,3 +116,29 @@
     height: 16px;
     fill: currentColor;
 }
+
+.menu-open {
+    margin-left: auto;
+}
+
+.mob-menu {
+    width: 100vw;
+    height: 100vh;
+    background-color:#FFFFFF;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+  .menu-close {
+      position: absolute;
+      top: 10px;
+      right: 25px;
+      padding: 0;
+      border: 0;
+      background-color: #fff;
+  }
+
+  

@@ -418,9 +418,7 @@ img {
 }
 
 .header-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -441,9 +439,7 @@ img {
 }
 
 .contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -531,6 +527,30 @@ img {
   width: 10px;
   height: 16px;
   fill: currentColor;
+}
+
+.menu-open {
+  margin-left: auto;
+}
+
+.mob-menu {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFFFFF;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.menu-close {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  padding: 0;
+  border: 0;
+  background-color: #fff;
 }
 
 .hero {
