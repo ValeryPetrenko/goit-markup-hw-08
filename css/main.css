@@ -553,6 +553,18 @@ img {
   background-color: #fff;
 }
 
+.mob-link {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.48;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.mob-current {
+  color: var(--main-accent-color);
+}
+
 .hero {
   padding: 118px 60px;
   height: 600px;
