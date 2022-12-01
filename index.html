@@ -44,55 +44,59 @@
                         +38 096 111 11 11</a></li>
             </ul>
             </div>
-            <button type="button" class="menu-open">
+            <button type="button" class="menu-open" data-menu-open>
                 <svg class="menu-mob-open" width="40" height="40">
                     <use href="./img/icons.svg#icon-menu-open"></use>
                 </svg>
             </button>
         </div>
 
-        <div class="mob-menu">
+        <div class="mob-menu is-hidden" data-menu>
             <div class="mobile-container">
-                <button type="button" class="menu-close">
-                    <svg class="menu-mob-close" width="40" height="40">
-                        <use href="./img/icons.svg#icon-menu-close"></use>
-                    </svg>
-                </button>
-                <ul class="mob-list list">
-                    <li class="mob-item"><a class="mob-link mob-current link" href="">Студія</a></li>
-                    <li class="mob-item"><a class="mob-link link" href="./portfolio.html">Портфоліо</a></li>
-                    <li class="mob-item"><a class="mob-link link" href="">Контакти</a></li>
-                </ul>
-                <ul class="mob-contacts list">
-                    <li class="mob-email">
-                        <a class="mob-link-contact link" href="mailto:info@devstudio.com">
-                        
-                            info@devstudio.com</a>
-                    </li>
-                    <li class="mob-number">
-                        <a class="mob-link-contact link" href="tel:+380961111111">
-                        
-                            +38 096 111 11 11</a>
-                    </li>
-                </ul>
-                <ul class="mob-social-list list">
-                    <li class="mob-social-item">
-                        <a href="https://www.instagram.com/" class="mob-social-link link">Instagram
+                <div class="mob-menu-top">
+                    <button type="button" class="menu-close" data-menu-close>
+                        <svg class="menu-mob-close" width="40" height="40">
+                            <use href="./img/icons.svg#icon-menu-close"></use>
+                        </svg>
+                    </button>
+                    <ul class="mob-list list">
+                        <li class="mob-item"><a class="mob-link mob-current link" href="">Студія</a></li>
+                        <li class="mob-item"><a class="mob-link link" href="./portfolio.html">Портфоліо</a></li>
+                        <li class="mob-item"><a class="mob-link link" href="">Контакти</a></li>
+                    </ul>
+                </div>
+                <div class="mob-menu-botton">
+                    <ul class="mob-contacts list">
+                        <li class="mob-number">
+                            <a class="mob-link-number link" href="tel:+380961111111">
                             
-                        </a></li>
-                    <li class="mob-social-item">
-                        <a href="https://twitter.com/" class="mob-social-link link">Twitter
-                            
-                        </a></li>
-                    <li class="mob-social-item">
-                        <a href="https://www.facebook.com/" class="mob-social-link link">Facebook
-                            
-                        </a></li>
-                    <li class="mob-social-item">
-                        <a href="https://www.linkedin.com/" class="mob-social-link link">LinkedIn
+                                +38 096 111 11 11</a>
+                        </li>
+                        <li class="mob-email">
+                            <a class="mob-link-email link" href="mailto:info@devstudio.com">
                         
-                        </a></li>
-                </ul>
+                                info@devstudio.com</a> 
+                        </li>
+                    </ul>
+                    <ul class="mob-social-list list">
+                        <li class="mob-social-item">
+                            <a href="https://www.instagram.com/" class="mob-social-link link">Instagram
+                                
+                            </a></li>
+                        <li class="mob-social-item">
+                            <a href="https://twitter.com/" class="mob-social-link link">Twitter
+                                
+                            </a></li>
+                        <li class="mob-social-item">
+                            <a href="https://www.facebook.com/" class="mob-social-link link">Facebook
+                                
+                            </a></li>
+                        <li class="mob-social-item">
+                            <a href="https://www.linkedin.com/" class="mob-social-link link">LinkedIn
+                            
+                            </a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -621,5 +625,6 @@
          </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
