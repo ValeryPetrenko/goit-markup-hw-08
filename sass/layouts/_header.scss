@@ -30,6 +30,9 @@
     display: none;
     align-items: center;
     gap: 50px;
+    @media screen and (min-width: 768px) {
+        display: flex;      
+    }      
 }
 
 .header-navigation {
@@ -46,6 +49,19 @@
     display: none;
     align-items: center;
     gap: 50px;
+
+    @media screen and (min-width: 768px) {
+          display: flex;
+          margin-left: 84px;
+          flex-direction: column;
+          align-items: center;
+        }
+    
+    @media screen and (min-width: 1200px) {
+           display: flex;
+           align-items: center;
+           gap: 50px;
+        }
 }
 
 .header-container {
@@ -123,6 +139,11 @@
     border: none;
     padding-top: 10px;
     padding-right: 10px;
+
+    @media screen and (min-width: 768px) {
+            display: none;
+          ;
+        }
 }
 
 .menu-mob-open {
