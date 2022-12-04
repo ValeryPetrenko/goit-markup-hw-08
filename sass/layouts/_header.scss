@@ -51,16 +51,19 @@
     gap: 50px;
 
     @media screen and (min-width: 768px) {
+         font-size: 12px;
           display: flex;
-          margin-left: 84px;
+          margin: auto;
           flex-direction: column;
-          align-items: center;
+          align-items: baseline;
+          gap: 10px;
         }
     
     @media screen and (min-width: 1200px) {
            display: flex;
+           flex-direction: row;
            align-items: center;
-           gap: 50px;
+           gap: 30px;
         }
 }
 
@@ -207,7 +210,7 @@
 
 .mob-link-number{
     font-weight: 500;
-    font-size: 34px;
+    font-size: 27px;
     line-height: 1.17;
     letter-spacing: 0.02em;
     color: #2196F3;
@@ -232,7 +235,7 @@
 
 .mob-social-link {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 10px;
     line-height: 1.22;
     letter-spacing: 0.02em;
     color: #2196F3;
