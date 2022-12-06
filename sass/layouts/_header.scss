@@ -167,6 +167,9 @@
     z-index: 1;
     padding-top: 48px;
     padding-bottom: 48px;
+    @media screen and (min-width: 768px) {
+            display: none;
+        }
 }
 
 .mobile-container {
@@ -236,10 +239,13 @@
 
 .mob-social-link {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 10px;
     line-height: 1.22;
     letter-spacing: 0.02em;
     color: #2196F3;
+    @media screen and (min-width: 480px) {
+           font-size: 14px;;
+        }
 }
 
 .mob-social-item:not(:last-child) ::after {
